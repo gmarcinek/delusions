@@ -3,6 +3,17 @@ body {
 }
 .dialog-container {
     display: block;
+    margin-top: 1rem;
+}
+
+.dialog-container .image {
+    height: 150px; 
+    background-image: url('../img/philo01.jpg');
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover;
+    width: 100%;
+    border-radius: 12px 12px 0 0 ;
 }
 
 .dialog-item {
@@ -25,7 +36,10 @@ body {
     padding-top: 3rem;
     padding-bottom: 2rem;
     margin-bottom: 2rem;
+    margin-top: 0rem;
+    border-radius: 0 0 12px 12px;
 }
+
 
 
 .dialog-item.admin {
@@ -55,6 +69,9 @@ body {
 }
 
 @media (min-width: 768px) {
+    .dialog-container .image {
+        height: 350px;
+    }
     .dialog-item {
         margin-top: 1rem;
         background: #f0f0f0;
