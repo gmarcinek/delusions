@@ -28,7 +28,7 @@ body {
 
 
 .dialog-item.admin {
-    background: #76aabb;
+    background: var(--primary-color);
     color: #fff;
     margin-bottom: 3rem;
     padding: 3rem;
