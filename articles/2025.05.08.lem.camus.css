@@ -8,7 +8,7 @@ body {
 .dialog-item {
     margin-top: 1rem;
     background: #f0f0f0;
-    padding: 1rem 2rem;
+    padding: 1rem 1.5rem;
     border-radius: 12px;
     margin: 0 auto;
     align-items: center;
@@ -30,8 +30,8 @@ body {
 .dialog-item.admin {
     background: var(--primary-color);
     color: #fff;
-    margin-bottom: 3rem;
-    padding: 3rem;
+    margin-bottom: 2rem;
+    padding: 1.5rem;
     text-align: left;
     max-width: 100%;
     font-size: 16px;
@@ -47,7 +47,6 @@ body {
     font-style: italic;
 }
 
-
 .dialog-item .speaker {
     font-size: large;
     font-weight: 600;
@@ -62,8 +61,6 @@ body {
         padding: 2rem 4rem;
     }
     .dialog-item.admin {
-        background: #76aabb;
-        color: #fff;
         margin-bottom: 4rem;
         padding: 4rem;
         text-align: center;
@@ -75,12 +72,10 @@ body {
     }
     .dialog-item.admin .content {
         max-width: 100%;
+        text-align: left;
     }
    
     .dialog-item .content {
         max-width: 640px;
     }
-   
-
-
 }
