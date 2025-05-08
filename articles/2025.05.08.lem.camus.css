@@ -20,6 +20,11 @@ body {
 .dialog-item p {
     margin-bottom: 0.75rem;
 }
+.dialog-item.summary {
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    margin-bottom: 2rem;
+}
 
 
 .dialog-item.admin {
