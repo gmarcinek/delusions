@@ -297,6 +297,21 @@ img {
     flex-grow: 1;
 }
 
+.article-lead {
+    margin: 0 0 20px;
+    padding: 16px 18px;
+    background: linear-gradient(135deg, #f7f4ee, #eef3f8);
+    border-left: 4px solid var(--secondary-color);
+    border-radius: 0 var(--border-radius) var(--border-radius) 0;
+    color: #314355;
+    font-size: 0.97rem;
+    line-height: 1.65;
+}
+
+.article-lead strong {
+    color: var(--primary-color);
+}
+
 .article-footer {
     display: flex;
     justify-content: space-between;
